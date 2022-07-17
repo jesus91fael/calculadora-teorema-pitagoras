@@ -5,11 +5,12 @@ export const CalculatorStyled = styled.div`
   display: flex ;
   flex-direction: column ;
   align-items: center ;
-  background-color: #7c7c7c ;
+  background-color: #C0C0C0;
   margin: auto;
   padding: 10px ;
 	border: 1px solid #ccc;
   border-radius: 5px;
+  font-family: sans-serif ;
 `;
 
 export const ContainerStyled = styled.div`
@@ -19,7 +20,7 @@ export const ContainerStyled = styled.div`
   flex-direction: row ;
   align-items: center ;
 	margin: auto;
-	border: 1px solid #ccc;
+	border: 1px solid #808080;
   border-radius: 5px;
 `;
 

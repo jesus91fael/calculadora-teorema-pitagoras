@@ -5,7 +5,7 @@ import {
   ContainerButtonStyled,
   ContainerStyled,
   CalculatorStyled,
-  ContainerOperatorStyled
+  ContainerOperatorStyled,
 } from "./styles";
 
 const Layout = () => {
@@ -26,9 +26,9 @@ const Layout = () => {
           <Button value="0" />
         </ContainerButtonStyled>
         <ContainerOperatorStyled>
-          <Button value="<-" />
+          <Button value="delete" />
           <Button value="CE" />
-          <Button value="CE" />
+          <Button value="Sobre" />
           <Button value="=" />
         </ContainerOperatorStyled>
       </ContainerStyled>
