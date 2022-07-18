@@ -1,20 +1,20 @@
-import React from "react";
-import Button from "../components/Button";
-import Display from "../components/Display";
+import React from "react"
+import Button from "../components/Button"
+import Display from "../components/Display"
 import {
-  ContainerButtonStyled,
-  ContainerStyled,
+  PageStyled,
   CalculatorStyled,
-  ContainerOperatorStyled,
-} from "./styles";
+} from "./styles"
 
 const Layout = () => {
 
   return (
-    <CalculatorStyled>
-        <Display />
-    </CalculatorStyled>
-  );
-};
+    <PageStyled>
+      <CalculatorStyled>
+          <Display />
+      </CalculatorStyled>
+    </PageStyled>
+  )
+}
 
 export default Layout;

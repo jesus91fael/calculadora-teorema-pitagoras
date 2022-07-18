@@ -18,9 +18,14 @@ export const ImgStyled = styled.img`
   height: 80px; 
 `;
 
-export const TitleStyled = styled.span`
+export const TitleResultadoStyled = styled.span`
  font-size: 12px ;
  font-weight: normal ;
+`;
+
+export const TitleStyled = styled.h3`
+ font-family: Cursive ;
+ color: #fff ;
 `;
 
 export const InsertValuesStyled = styled.div`
@@ -49,7 +54,6 @@ export const ResultStyled = styled.div`
   justify-content: center ;
   align-items: center ;
   margin: 2px ;
-  border-radius: 5px ;
   color: #fff ;
   font-weight: bold ;
   text-align: center ;
