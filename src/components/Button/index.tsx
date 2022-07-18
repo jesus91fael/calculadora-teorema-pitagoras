@@ -3,11 +3,11 @@ import { ButtonType } from "./interface"
 import { ButtonStyled } from "./styles"
 
 
-const Button: React.FC<ButtonType> = ({value}) => {
+const Button: React.FC<ButtonType> = ({value, type, onClick}) => {
   
 
   return(
-    <ButtonStyled type="button" value={value}>{value === "delete" ? '🠔' : value} </ButtonStyled>
+    <ButtonStyled type={type} onClick={onClick} value={value}>{value} </ButtonStyled>
   )
 }
 

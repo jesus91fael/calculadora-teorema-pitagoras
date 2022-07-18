@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const DisplayStyled = styled.div`
   width: 300px;
-  height: 200px ;
+  height: 300px ;
   display: flex ;
   flex-direction: column ;
   background-color:#363636;
@@ -29,6 +29,7 @@ export const InsertValuesStyled = styled.div`
   justify-content: space-between;
   flex-direction: row ;
   align-items: center ;
+  margin: 10px 0;
 `;
 
 export const ValuesStyled = styled.div`

@@ -1,4 +1,5 @@
 export interface InputType {
-  value?: string
+  value?: number
   label?: string
+  onChange?: (e: any) => void
 }

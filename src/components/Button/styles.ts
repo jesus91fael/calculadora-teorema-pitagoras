@@ -5,7 +5,7 @@ export const ButtonStyled = styled.button`
   border: none;
   flex: 1 ;
   margin: 5px;
-  background-color:#363636;
+  background-color:#836FFF;
   font-size: 16px;
   padding: 10px 20px;
   cursor: pointer;
@@ -14,7 +14,8 @@ export const ButtonStyled = styled.button`
 
   &:hover {
     
-    background-color:#836FFF;
+    background-color:#FFF;
+    color: #836FFF ;
     
   }
 `;
