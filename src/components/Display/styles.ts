@@ -1,8 +1,8 @@
 import styled from 'styled-components'
 
 export const DisplayStyled = styled.div`
-  width: 300px;
-  height: 300px ;
+  width: 339px;
+  height: 330px ;
   display: flex ;
   flex-direction: column ;
   background-color:#363636;
@@ -21,11 +21,14 @@ export const ImgStyled = styled.img`
 export const TitleResultadoStyled = styled.span`
  font-size: 12px ;
  font-weight: normal ;
+ text-align: center ;
+
 `;
 
 export const TitleStyled = styled.h3`
  font-family: Cursive ;
  color: #fff ;
+ text-align: center ;
 `;
 
 export const InsertValuesStyled = styled.div`
@@ -49,7 +52,7 @@ export const LineStyled = styled.hr`
 
 export const ResultStyled = styled.div`
   display: flex ;
-  width: 200px ;
+  height: 50px ;
   flex-direction: column ;
   justify-content: center ;
   align-items: center ;

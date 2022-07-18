@@ -13,8 +13,8 @@ export const ButtonStyled = styled.button`
   font-weight: bold ;
 
   &:hover {
-    background-color:#FFF;
-    color: #836FFF ;
+    background-color:#433191;
+    color: #fff ;
     
   }
 `;
